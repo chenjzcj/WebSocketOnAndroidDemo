@@ -25,4 +25,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //websocket应用案例 https://github.com/chenjzcj/nv-websocket-client
+    implementation 'com.neovisionaries:nv-websocket-client:2.6'
+    //常用工具套装 https://github.com/chenjzcj/AndroidUtilCode
+    implementation 'com.blankj:utilcode:1.17.3'
 }
